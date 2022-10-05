@@ -61,4 +61,7 @@ class siteController
         return true;
     }
 
+    public function actionTest(){
+        echo 'Ok';
+    }
 }

@@ -46,7 +46,6 @@ class router
                 if (file_exists($controllerFile)) {
                     include_once($controllerFile);
                 }
-                print($controllerFile);
                 //create object class controller
                 $controllerObject = new $controllerName;
                 try {
@@ -58,8 +57,9 @@ class router
                     if ($result != null) {
                         break;
                     }
+                }else{
+                    return false;
                 }
-
             }
         }
     }

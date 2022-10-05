@@ -55,7 +55,7 @@ class userController
             $email = $_POST['email'];
             $password = $_POST['password'];
 
-            $errors = false;
+            $errors = [];
 
             // Валидация полей
             if (!user::checkEmail($email)) {

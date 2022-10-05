@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Жорик
- * Date: 09.12.2017
- * Time: 20:42
- */
 
 class user
 {
@@ -145,9 +139,11 @@ class user
      */
     public static function checkEmail($email)
     {
+
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return true;
         }
+
         return false;
     }
 

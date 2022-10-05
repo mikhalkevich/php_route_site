@@ -1,8 +1,5 @@
 <?php
-/** * Created by PhpStorm.* Date: 08.12.2017* Time: 11:09*/
-/**
- * Класс Product - модель для работы с товарами
- */
+
 class product
 {
 

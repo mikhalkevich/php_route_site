@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * Date: 08.12.2017
- * Time: 10:35
- * Класс Category - модель для работы с категориями товаров
- */
+
 class category
 {
 
