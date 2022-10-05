@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * Date: 10.12.2017
- * Time: 1:41
-* Контроллер AdminCategoryController
-* Управление категориями товаров в админпанели
-*/
+
 class adminCategoryController extends adminBase
 {
 
