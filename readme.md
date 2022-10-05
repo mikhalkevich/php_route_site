@@ -7,7 +7,7 @@ html, css, js/jquery.
 - docker-compose up -d
 - cd database
 - docker-compose up -d
-- После установки образов, можем перейти в PHPMyAdmin, который будет доступен по порту <code>:82</code>. Здесь необходимо создать базу данных <code>comments</code>.
+- После установки образов, можем перейти в PHPMyAdmin, который будет доступен по порту <code>:82</code>. Здесь необходимо создать базу данных <code>catalog</code>.
 - username:root, password:helloworld 
 - перейти в созданную базу и импортировать файл <code>database/catalog.sql</code>
 ## Настройка
